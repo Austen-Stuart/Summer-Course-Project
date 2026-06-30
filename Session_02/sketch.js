@@ -1,13 +1,22 @@
 function setup() {
     createCanvas(400, 300);
     greeting();
+    racoonX = 200;
+    racconY = 150;
 }
 
 function draw() {
     background(0,0,220);
-    drawRacoon(200, 150);
+    drawRacoon(racoonX, racconY);
     fill('black');
+
 }
+/*
+mousePressed = function(){
+    racoonX = mouseX;
+    racconY = mouseY;
+}
+*/
 
 function greeting(){
     console.log("Hello World");
