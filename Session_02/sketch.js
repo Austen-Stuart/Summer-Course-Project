@@ -11,12 +11,12 @@ function draw() {
     fill('black');
 
 }
-/*
+
 mousePressed = function(){
     racoonX = mouseX;
     racconY = mouseY;
 }
-*/
+
 
 function greeting(){
     console.log("Hello World");
