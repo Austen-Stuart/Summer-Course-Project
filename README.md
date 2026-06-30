@@ -1,11 +1,5 @@
-# TITLE: Practice for Git (now with problems thanks to Windows :D)
+# Summer Session: Portfolio
 
-Hello, this is a test.
+Session 1:
 
-To see who is listening.
-
-I can't hear you.
-
-But I know you are there.
-
-Why are you listening?
+Session 2:
