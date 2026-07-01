@@ -10,4 +10,4 @@ This drawing was my first assignment, where i utilized many arcs, which is a sha
 
 ## Session 2 (30/6/26):
 
-Session 2 is where we focused on loops, 
+Session 2 is where the class focused on loops, functions, and arrays, and how they can be used to help perform tasks in short lines of code. 
