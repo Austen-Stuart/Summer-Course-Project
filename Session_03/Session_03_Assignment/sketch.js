@@ -8,19 +8,6 @@ let statenIsland = 0;
 async function setup() {
     createCanvas(800, 800);
 
-    //const appId = 'YOUR_API_ID'; // insert your obtained API ID here
-    //const apiKey = 'YOUR_API_KEY'; // insert your obtained API key here
-
-    // get status of all tube trains
-    /*
-    fetch(`https://api.tfl.gov.uk/Line/Mode/tube`)
-        .then(response => response.json())
-        .then(data => console.log('STATUS', data));
-        */
-    
-    // Load the CSV file with a header row
-  // NOTE: adjust the file path - it should start in the folder in which you are running the server
-  // ideally: the main repo folder
   table = await loadTable('/Session_03/assets/Housing.csv', ',', 'header');
 
   // Get the second row (index 1)
