@@ -6,7 +6,7 @@ let manhattan = 0;
 let statenIsland = 0;
 
 async function setup() {
-    createCanvas(800, 800);
+    createCanvas(700, 700);
 
   table = await loadTable('/Session_03/assets/Housing.csv', ',', 'header');
 
@@ -49,16 +49,44 @@ async function setup() {
 }
 
 function draw() {
-    background(220);
-    fill('red');
-    rect(100, 500, 80, -brooklyn/10);
-    fill('orange');
-    rect(200, 500, 80, -bronx/10);
-    fill('yellow');
-    rect(300, 500, 80, -queens/10);
-    fill('green');
-    rect(400, 500, 80, -manhattan/10);
-    fill('blue');
-    rect(500, 500, 80, -statenIsland/10);
+    background(0,0,50);
+    noStroke();
+    fill(0,0,70);
+    for(let i = 0; i < 50; i++){
+        circle(random(0,700), random(0,400), random(0,200));
+    }
+    fill(0,0,90);
+    for(let i = 0; i < 30; i++){
+        circle(random(0,700), random(0,400), random(0,150));
+    }
+    fill(40);
+    for(let i = 0; i < 5; i++){
+        rect(0, 700, 700, -180);
+    }
+    fill(40);
+    for(let i = 0; i < 5; i++){
+        rect(85+100*i, 560, 80, -1*random(130, 200));
+    }
+    fill(60);
+    for(let i = 0; i < 6; i++){
+        rect(70+100*i, 580, 80, -1*random(100, 150));
+    }
+    drawBuilding(100, 600, brooklyn);
+    drawBuilding(200, 600, bronx);
+    drawBuilding(300, 600, queens);
+    drawBuilding(400, 600, manhattan);
+    drawBuilding(500, 600, statenIsland);
+
     noLoop();
+}
+
+function drawBuilding(x,y,size){
+    fill(random(80,130));
+    rect(x, y, 80, -size/10 - 50);
+    let windows = Math.floor(size/500)+1;
+    for(let i = 0; i < windows; i++){
+        fill('Yellow');
+        rect(x + 10, y -size/10 - 30 + (i * 40), 20, 20);
+        rect(x + 50, y -size/10 - 30 + (i * 40), 20, 20);
+    }
 }
