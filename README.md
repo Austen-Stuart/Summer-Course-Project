@@ -11,3 +11,8 @@ This drawing was my first assignment, where i utilized many arcs, which is a sha
 ## Session 2 (30/6/26):
 
 Session 2 is where the class focused on loops, functions, and arrays, and how they can be used to help perform tasks in short lines of code. 
+<img width="300" height="233" alt="Session2Assignment" src="https://github.com/user-attachments/assets/c6126760-6d7e-47c3-b935-6b72f51f6727" />
+
+## Session 3 (7/1/26)
+
+## Session 4 (7/2/26)
