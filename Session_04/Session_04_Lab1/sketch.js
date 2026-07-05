@@ -2,6 +2,7 @@ let image1;
 let image2;
 let image3;
 let image4;
+let mouseWasnt = true;
 let tacksX = [];
 let tacksY = [];
 
@@ -57,9 +58,18 @@ function draw() {
     }
 
 
-    if(mouseIsPressed){
+    if(mouseIsPressed && mouseWasnt == true){
         tacksX.push(mouseX);
         tacksY.push(mouseY);
+        if(tacksX.length > 10){
+            tacksX.shift();
+            tacksY.shift();
+        }
+        mouseWasnt = false;
+    }
+
+    if(mouseIsPressed == false){
+        mouseWasnt = true;
     }
 }
 
