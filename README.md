@@ -15,7 +15,7 @@ Session 2 is where the class focused on loops, functions, and arrays, and how th
 <img width="300" height="233" alt="Session2Demo" src="https://github.com/user-attachments/assets/c0422b76-58b0-4385-b915-cd17c0bb8119" />
 <img width="300" height="233" alt="Session2Assignment" src="https://github.com/user-attachments/assets/c6126760-6d7e-47c3-b935-6b72f51f6727" />
 
-I made a night sky, where there is an array to determine the colors of each star in the sky. I also made a loop so many stars are created, and 2 functions were also added. One made each star, and the other made the moon. Positions are randomized, so it will change position each time the page is refreshed!
+I made a demo of triangles being drawn using an array, and a night sky, where there is an array to determine the colors of each star in the sky. I also made a loop so many stars are created, and 2 functions were also added. One made each star, and the other made the moon. Positions are randomized, so it will change position each time the page is refreshed!
 
 ## Session 3 (7/1/26)
 
