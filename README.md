@@ -19,4 +19,11 @@ I made a demo of triangles being drawn using an array, and a night sky, where th
 
 ## Session 3 (7/1/26)
 
+Session 3 is where the class learned about how to access data and visualize it into a more easily digestable or abstract format.
+
+<img width="300" height="233" alt="image" src="https://github.com/user-attachments/assets/53a0c67a-4420-4465-a83b-f711a158f1c7" /> 
+<img width="857" height="861" alt="image" src="https://github.com/user-attachments/assets/b33d88b3-70d0-4e4c-a7a2-d7c5d341e52e" />
+
+The first image was a demo we made in class to make sure that I could access a given csv file. The second image is of a city at night, but the 5 buildings with windows actually have their heights determined by the number of planned affordable housing in 5 areas of New York. Those areas are Brooklyn, Bronx, Queens, Staten Island, and Manhatten. 
+
 ## Session 4 (7/2/26)
