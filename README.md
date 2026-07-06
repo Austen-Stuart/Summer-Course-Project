@@ -27,3 +27,8 @@ Session 3 is where the class learned about how to access data and visualize it i
 The first image was a demo we made in class to make sure that I could access a given csv file. The second image is of a city at night, but the 5 buildings with windows actually have their heights determined by the number of planned affordable housing in 5 areas of New York. Those areas are Brooklyn, Bronx, Queens, Staten Island, and Manhatten. 
 
 ## Session 4 (7/2/26)
+
+Session 4 is where we learned 
+
+<img width="300" height="233" alt="image" src="https://github.com/user-attachments/assets/d013d9fd-8109-4b93-8a04-35a08c29a846" />
+
