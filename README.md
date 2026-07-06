@@ -35,4 +35,8 @@ Session 4 is where we learned about interaction, specifically changing the image
 
 Our first lab required us to make a mouse interaction piece, so I decided to make a conspiracy board were you can place thumbtacks with red lines pointed to other thumb tacks to show different connections. The second image is of a video cam interfact that you can draw on, or place stickers over the video. Both of these offer different ways of interacting with the image.
 
+## Session 5 (7/6/26)
+
+<img width="1132" height="747" alt="image" src="https://github.com/user-attachments/assets/d0376862-564d-4b0a-99f9-acc8d92904ee" />
+
 
