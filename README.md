@@ -37,6 +37,6 @@ Our first lab required us to make a mouse interaction piece, so I decided to mak
 
 ## Session 5 (7/6/26)
 
-<img width="1132" height="747" alt="image" src="https://github.com/user-attachments/assets/d0376862-564d-4b0a-99f9-acc8d92904ee" />
+<img width="300" height="233" alt="image" src="https://github.com/user-attachments/assets/d0376862-564d-4b0a-99f9-acc8d92904ee" />
 
 
