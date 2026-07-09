@@ -17,7 +17,7 @@ Session 2 is where the class focused on loops, functions, and arrays, and how th
 
 I made a demo of triangles being drawn using an array, and a night sky, where there is an array to determine the colors of each star in the sky. I also made a loop so many stars are created, and 2 functions were also added. One made each star, and the other made the moon. Positions are randomized, so it will change position each time the page is refreshed!
 
-## Session 3 (7/1/26)
+## Session 3 (1/7/26)
 
 Session 3 is where the class learned about how to access data and visualize it into a more easily digestable or abstract format.
 
@@ -26,7 +26,7 @@ Session 3 is where the class learned about how to access data and visualize it i
 
 The first image was a demo we made in class to make sure that I could access a given csv file. The second image is of a city at night, but the 5 buildings with windows actually have their heights determined by the number of planned affordable housing in 5 areas of New York. Those areas are Brooklyn, Bronx, Queens, Staten Island, and Manhatten. 
 
-## Session 4 (7/2/26)
+## Session 4 (2/7/26)
 
 Session 4 is where we learned about interaction, specifically changing the image based on sound input, video input, or mouse input.
 
@@ -35,10 +35,18 @@ Session 4 is where we learned about interaction, specifically changing the image
 
 Our first lab required us to make a mouse interaction piece, so I decided to make a conspiracy board were you can place thumbtacks with red lines pointed to other thumb tacks to show different connections. The second image is of a video cam interfact that you can draw on, or place stickers over the video. Both of these offer different ways of interacting with the image.
 
-## Session 5 (7/6/26)
+## Session 5 (6/7/26)
 
 <img width="300" height="233" alt="image" src="https://github.com/user-attachments/assets/a650b38c-d9fd-4b72-9b3b-515d134de918" />
 <img width="300" height="166" alt="image" src="https://github.com/user-attachments/assets/28d48d1b-2a93-40e0-a011-314f3c3c4d30" />
+
+## Session 6 (7/7/26)
+
+## Session 7 (8/7/26)
+
+## Session 8 (9/7/26)
+
+https://teachablemachine.withgoogle.com/models/DQWRQLpxO/
 
 
 
