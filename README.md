@@ -42,7 +42,11 @@ Our first lab required us to make a mouse interaction piece, so I decided to mak
 
 ## Session 6 (7/7/26)
 
+Discussion of AI ethics
+
 ## Session 7 (8/7/26)
+
+<img width="300" height="300" alt="ComfyUI_temp_tiqye_00001_" src="https://github.com/user-attachments/assets/e55c7168-ccd3-4af5-b546-1535a9c653f9" />
 
 ## Session 8 (9/7/26)
 
