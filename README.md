@@ -46,6 +46,12 @@ Discussion of AI ethics
 
 ## Session 7 (8/7/26)
 
+Session 7 was a bit of a rough one for me personally. Our lecture was about generating images using machine learning. To do this, we used ComfyUI as our base, where we could attach different nodes to help create a model to generate an image.
+
+(INSERT IMAGE HERE)
+
+As you can see, my first attempt allowed my to attach the Latent Image node to the prompt, and then feed both into the Image Generator to create an output. However, an error arrose that wouldn't allow me to run any models on my computer. The error message told me that my computers GPU was not compatible
+
 <img width="300" height="300" alt="ComfyUI_temp_tiqye_00001_" src="https://github.com/user-attachments/assets/e55c7168-ccd3-4af5-b546-1535a9c653f9" />
 
 ## Session 8 (9/7/26)
