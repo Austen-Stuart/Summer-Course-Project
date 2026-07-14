@@ -66,8 +66,10 @@ This worked, and I was able to successfully generate an image using the prompt "
 
 ## Session 8 (9/7/26)
 
+Session 8 was divided into 2 parts. The first was project preporation, planning, and making sure we request any materials that might be needed for the project.
+
 https://teachablemachine.withgoogle.com/models/DQWRQLpxO/
 
-
+The second was learning how to use "teachable machines" which is an algorithm used to help train machine learning models. Our lab focused on the image recognition portion of the lab. I was able to get it to recognize 4 key poses, the first being the Idle/None pose to act as a base for when I am not doing anything, and the other 3 being varying poses to see what the computer could and couldn't recognize. AT first, it was a little difficult to get a hold of, but the more images i fed into the teachable machine, the more likely the model created could identify the pose, and the easier the lab got.
 
 
