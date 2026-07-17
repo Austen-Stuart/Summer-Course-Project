@@ -47,7 +47,7 @@ For the first of our labs, we experimented with many different AI experiment mad
 
 <img width="300" height="166" alt="image" src="https://github.com/user-attachments/assets/28d48d1b-2a93-40e0-a011-314f3c3c4d30" />
 
-For the second lab, we were to make an interactive art piece using a FaceMesh provided to us. In the midst of a heat wave, I decided to go with turning the user's face into the Sun, shooting angry lazer beams down on the population below.
+For the second lab, we were to make an interactive art piece using a FaceMesh provided to us. In the midst of a heat wave, I decided to go with turning the user's face into the Sun, shooting angry lazer beams down on the population below. This was a lot of fun, and I had a great time messing with it, even if it couldn't detect my face properly.
 
 (It also has came to my attention today that progress photos are suggested to help see the thought process behind our work. I did not know this, and will now make sure to take many progess photos as I continue on future work.)
 
@@ -76,12 +76,27 @@ This worked, and I was able to successfully generate an image using the prompt "
 
 ## Session 8 (9/7/26)
 
-Session 8 was divided into 2 parts. The first was project preporation, planning, and making sure we request any materials that might be needed for the project.
+Session 8 was divided into 2 parts. The first was project preporation, planning, and making sure we request any materials that might be needed for the project. I decided that I am going with the face mesh idea because I think it would be fun to try and make an interactive expirience where you can change what your face looks like on the fly! Ms Marysia even showed me a better version that was able to track faces more accurately, and I want to use that as the base for my final project.
 
 https://teachablemachine.withgoogle.com/models/DQWRQLpxO/
 
 The second was learning how to use "teachable machines" which is an algorithm used to help train machine learning models. Our lab focused on the image recognition portion of the lab. I was able to get it to recognize 4 key poses, the first being the Idle/None pose to act as a base for when I am not doing anything, and the other 3 being varying poses to see what the computer could and couldn't recognize. AT first, it was a little difficult to get a hold of, but the more images i fed into the teachable machine, the more likely the model created could identify the pose, and the easier the lab got.
 
-
 <iframe src="https://editor.p5js.org/Austen-Stuart/full/F9P9d79Sj"></iframe>
+
+## Final Project 1 (12/7/26)
+
+Over the weekend, I i decided to get a little work done just to make sure the face mesh works properly. It looks like rather than drawing key feature, it maps the face to certain points on the screen. Thankfully, I was able to find a guide to the coordinate system that the face mesh uses. 
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/d083ef96-3e83-4b7a-b765-e96fa976a1de" />
+<img width="300" height="266" alt="image" src="https://github.com/user-attachments/assets/877f82cc-4752-4e29-a045-13e42de537b3" />
+
+To make sure this worked properly, I changes the color of the various points around the left and right using the coordinates in the guide! This worked, and I feel more confident in the direction of my project.
+
+## Final Project 2 (Session 9) (13/7/26)
+
+## Final Project 3 (Session 10) (14/7/26)
+
+## Final Project 4 (Session 11) (15/7/26)
+
+## Last Minute Showcase Changes (16/7/26)
 
