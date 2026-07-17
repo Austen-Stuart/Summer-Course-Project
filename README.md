@@ -125,7 +125,7 @@ The YouTube Tutorial: https://www.youtube.com/watch?v=R5UZsIwPbJA&t=1s
 
 While I had a lot of ideas to continue evolving, some of them didn't end up panning out. Turns out the YouTube tutorial I was following uses a different version than I was, and it let to many different bugs that I just decided wasn't worth trying to fix so close to the showcase. 
 
-I did make 2 more new masks, one being a blue, almost static appearance that randomizes it's shade every frame, and the other is a simple black and white mask that determines it's shade base on the order of triangles. WHile I hoped to do more with the masks, this was all I could do in the limited time I had.
+I did make 3 more new masks, one being a standered two-sided theater mask, one being a static blue appearance that randomizes it's shade every frame, and the last one is a simple black and white mask that determines it's shade base on the order of triangles. WHile I hoped to do more with the masks, this was all I could do in the limited time I had.
 
 I did however, successfully create a system that would change the masks at will! However, rather than using the Teachable Machines from session 8, I decided to go with a new HandMesh system made by ml5 to detect different hands. What i did is I had it detect when a user would have a hand on screen, and change the mask once the webcam detects a hand. Then, the program waits for the hand to disapear before it detects if there is another hand! That way it isn't constantly shifting masks, and still gives the user control of when the mask changes!
 
