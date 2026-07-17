@@ -6,16 +6,16 @@ Session 1 was where we learned about creative computing, how it can be applied, 
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/21228f88-49b7-4183-af65-2f2f1c2ee4f7" />
 
-This drawing was my first assignment, where i utilized many arcs, which is a shape i did research on outside of class, and various overlapping circles to draw an artistic self portrait.
+This drawing was my first assignment, where we had to create an artistic self portrait. I wanted to go for the Comedy and Tragedy masks as parts of my face because I am a huge theater person. In order to do this, I utilized many arcs, which is a shape I had to do research on outside of class, to help draw the eyes, to help convay happy or sadnass. I also had to learn about the stroke system, and how to make sure the outlines disapeared when drawing certain shapes, otherwise the eyes would look very strange and difficult to see.
 
 ## Session 2 (30/6/26):
 
-Session 2 is where the class focused on loops, functions, and arrays, and how they can be used to help perform tasks in short lines of code. 
+Session 2 is where the class focused on loops, functions, and arrays, and how they can be used to help perform tasks in short lines of code. I felt this was a very important lecture for beginners becuase variables and arrays are some of the most important ways to search for certain conditionsor give you the ability to draw things repeatedly
 
 <img width="300" height="233" alt="Session2Demo" src="https://github.com/user-attachments/assets/c0422b76-58b0-4385-b915-cd17c0bb8119" />
 <img width="300" height="233" alt="Session2Assignment" src="https://github.com/user-attachments/assets/c6126760-6d7e-47c3-b935-6b72f51f6727" />
 
-I made a demo of triangles being drawn using an array, and a night sky, where there is an array to determine the colors of each star in the sky. I also made a loop so many stars are created, and 2 functions were also added. One made each star, and the other made the moon. Positions are randomized, so it will change position each time the page is refreshed!
+The first lab we did was a demo of triangles being drawn using an array, with each one being rotate 90 degrees a certain number of times. The other lab I made was a night sky, where there is an array to determine the colors of each star in the sky. I also made a loop to draw the stars, since so many stars needed to be created. TO help make the drawing faster, 2 functions were also added. One made each star, and the other made the moon. Positions are randomized slightly, so the stars in the sky will change position each time the page is refreshed!
 
 ## Session 3 (1/7/26)
 
