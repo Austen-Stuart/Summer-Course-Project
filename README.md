@@ -103,7 +103,7 @@ It looks like for the final sessions of this class will be dedicated to the fina
 
 After reading the guide some more I discovered a new feature of the Face mesh where it can map out a mesh of the face into many different triangles. Using this, I successfully managed to get the program to draw any face that appeared on the webcam, without the video even needing to be shown. This ended up majorly impacting the design of my project, as the face drawn ended up reminding me of the magic mirror from snow white, and I think it would be so cool to make a mirror that shifts when people gaze into it.
 
-However, issues began to arrise when I realized that there is no guide
+However, issues began to arrise when I realized that there is no guide to the coordinates or order of triangles, which will make it a bit difficult to make unique styles or drawings of faces if I don't know which triangle I will be changing. Maybe I can find a solution next session.
 
 ## Final Project 3 (Session 10) (14/7/26)
 
