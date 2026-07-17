@@ -115,7 +115,7 @@ I also ended up making some new "masks" using a function to determine the color 
 <img width="300" height="233" alt="image" src="https://github.com/user-attachments/assets/57dadd29-2334-4562-bf8c-066fcf24b083" />
 
 
-The other mask I gave a whole bunch of random values to each color on the RGB scale. Red is determined by the order of triangles, green is determined by the X position, and blue is determined by the Y position. What resulted was a really cool rainbow style effect that shifted colors when you move, which I LOVED.
+The other mask I gave a whole bunch of random values to each color on the RGB scale. Red is determined by the order of triangles, green is determined by the X position, and blue is determined by the Y position. What resulted was a really cool rainbow style effect that shifted colors when you move, which I LOVED. Finally, I worked on a fade in animation to make the mask "appear" slowly after it detects a face on the webcam.
 
 The 2 problems that I still need to fix are getting more masks, and adding a trigger to change masks at will. For the first problem, I found a *YouTube tutorial that seems to use the same FaceMesh I am using, and how he was able to import drawings using UV Textures that come with the ML Algorithm. Hopefully I can use this to create/import some more unique masks in the next session. As for the second problem, I have the mask change when you press down on the mouse right now, but one of my classmates pointed out how I can use the teachable machines from session 8 could be used to detect and change their mask when they pose. I think this is a really cool idea, that I want to expirement with next session.
 
@@ -124,6 +124,10 @@ The YouTube Tutorial: https://www.youtube.com/watch?v=R5UZsIwPbJA&t=1s
 ## Final Project 4 (Session 11) (15/7/26)
 
 While I had a lot of ideas to continue evolving, some of them didn't end up panning out. Turns out the YouTube tutorial I was following uses a different version than I was, and it let to many different bugs that I just decided wasn't worth trying to fix so close to the showcase. 
+
+<img width="300" height="233" alt="image" src="https://github.com/user-attachments/assets/8e28300e-6fdc-4d97-804c-f179597aff3d" />
+<img width="300" height="233" alt="image" src="https://github.com/user-attachments/assets/6ccaa59f-7862-41ef-b97b-f7446bd72219" />
+<img width="300" height="233" alt="image" src="https://github.com/user-attachments/assets/46340df5-b9a5-4e20-854c-ba4f3e8a8f02" />
 
 I did make 3 more new masks, one being a standered two-sided theater mask, one being a static blue appearance that randomizes it's shade every frame, and the last one is a simple black and white mask that determines it's shade base on the order of triangles. WHile I hoped to do more with the masks, this was all I could do in the limited time I had.
 
