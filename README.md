@@ -83,8 +83,6 @@ Session 8 was divided into 2 parts. The first was project preporation, planning,
 <img width="150" height="300" alt="image" src="https://github.com/user-attachments/assets/f67fe152-b7b1-4b69-ae06-491e4fb8463f" />
 <img width="150" height="300" alt="image" src="https://github.com/user-attachments/assets/fd206223-e56e-4599-8c58-dc46e89a1bd4" />
 
-https://teachablemachine.withgoogle.com/models/DQWRQLpxO/
-
 The second was learning how to use "teachable machines" which is an algorithm used to help train machine learning models. Our lab focused on the image recognition portion of the lab. I was able to get it to recognize 4 key poses, the first being the Idle/None pose to act as a base for when I am not doing anything, and the other 3 being varying poses to see what the computer could and couldn't recognize. AT first, it was a little difficult to get a hold of, but the more images i fed into the teachable machine, the more likely the model created could identify the pose, and the easier the lab got.
 
 Machine Model Created: https://teachablemachine.withgoogle.com/models/DQWRQLpxO/
