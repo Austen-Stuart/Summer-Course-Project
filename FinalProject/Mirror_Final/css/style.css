@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f0f0;
+}
+
+.body_black {
+    background-color: hsl(0deg, 0%, 0%); /* black */
+    color: hsl(0deg, 100%, 100%); /* white */
+    text-decoration: none;
+}
+
+#p5_sketch { /* he p5 sketch div. Ensure the canvas is aligned to the centre */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+}
