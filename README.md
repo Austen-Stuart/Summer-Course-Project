@@ -72,7 +72,7 @@ My first attempt allowed my to attach the Latent Image node to the prompt, and t
 <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/582fd6e0-3c6f-4559-8310-cda89a3c2ebc" />
 <img width="300" height="300" alt="ComfyUI_temp_tiqye_00001_" src="https://github.com/user-attachments/assets/e55c7168-ccd3-4af5-b546-1535a9c653f9" />
 
-This worked, and I was able to successfully generate an image using the prompt "A chocolate statue of Wiston Churchill covered in dirty money". While the dirty money was lost, I would still call the image generation a success!
+This worked, and I was able to successfully generate an image using the prompt "A chocolate statue of Wiston Churchill covered in dirty money". While the dirty money was lost from the prompt, I would still call the image generation a success!
 
 ## Session 8 (9/7/26)
 
@@ -107,7 +107,25 @@ However, issues began to arrise when I realized that there is no guide to the co
 
 ## Final Project 3 (Session 10) (14/7/26)
 
+For this session, I made a small border to act as the mirror, and the border is being drawn over the mask, so it looks like the mask is inside the mirror.
+
+I also ended up making some new "masks" using a function to determine the color based on the X and Y position of each triangle. The first mask starts white, but turns more purple as the masks move down. I thought it would look a bit like shading, and maybe I can add a purple fire or smoke effect to work as lighting if I can manage to get that to work in time. 
+
+The other mask I gave a whole bunch of random values to each color on the RGB scale. Red is determined by the order of triangles, green is determined by the X position, and blue is determined by the Y position. What resulted was a really cool rainbow style effect that shifted colors when you move, which I LOVED.
+
+The 2 problems that I still need to fix are getting more masks, and adding a trigger to change masks at will. For the first problem, I found a *YouTube tutorial that seems to use the same FaceMesh I am using, and how he was able to import drawings using UV Textures that come with the ML Algorithm. Hopefully I can use this to create/import some more unique masks in the next session. As for the second problem, I have the mask change when you press down on the mouse right now, but one of my classmates pointed out how I can use the teachable machines from session 8 could be used to detect and change their mask when they pose. I think this is a really cool idea, that I want to expirement with next session.
+
+The YouTube Tutorial: https://www.youtube.com/watch?v=R5UZsIwPbJA&t=1s
+
 ## Final Project 4 (Session 11) (15/7/26)
+
+While I had a lot of ideas to continue evolving, some of them didn't end up panning out. Turns out the YouTube tutorial I was following uses a different version than I was, and it let to many different bugs that I just decided wasn't worth trying to fix so close to the showcase. 
+
+I did make 2 more new masks, one being a blue, almost static appearance that randomizes it's shade every frame, and the other is a simple black and white mask that determines it's shade base on the order of triangles. WHile I hoped to do more with the masks, this was all I could do in the limited time I had.
+
+I did however, successfully create a system that would change the masks at will! However, rather than using the Teachable Machines from session 8, I decided to go with a new HandMesh system made by ml5 to detect different hands. What i did is I had it detect when a user would have a hand on screen, and change the mask once the webcam detects a hand. Then, the program waits for the hand to disapear before it detects if there is another hand! That way it isn't constantly shifting masks, and still gives the user control of when the mask changes!
+
+I also made some minor aesthetic changes by making the mirror more purple, and making the background appear more like a castle wall. Unfortunately I couldn't make a smoke or fire effect of the mirror either due to how long the implementation of the hands took. Thankfully though, I believe I am ready for the showcase!
 
 ## Last Minute Showcase Changes (16/7/26)
 
