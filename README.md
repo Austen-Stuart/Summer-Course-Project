@@ -34,7 +34,7 @@ Session 4 is where we learned about interaction, specifically changing the image
 
 Our first lab required us to make a mouse interaction piece, so I decided to make a conspiracy board were you can place thumbtacks with red lines pointed to other thumb tacks to show different connections. I made it by having an array of points to draw the thumbtacks on, and then for each element in the array, lines are drawn to every other point in the array.
 
-<img width="300" height="266" alt="image" src="https://github.com/user-attachments/assets/9dfbff67-caff-457f-88e4-c8b1c939f20d" />
+<img width="300" height="333" alt="image" src="https://github.com/user-attachments/assets/9dfbff67-caff-457f-88e4-c8b1c939f20d" />
 
 The second lab is of a video cam interfact that you can draw on, or place stickers over the video. Both of these offer different ways of interacting with the image, and were implemented using 2 different methods. The stickers were made using arrays of coordinates to find positions and draw each sticker and save each shape that was places. While it did work, this took a lot of time, and using 3 different arrays for 3 different parts is a lot. Thankfully, one of the tutors introduced me to object-based drawing, by having all the data stored in one object, and having just one array of objects to call on. This is much easier to code, and was very helpful in making the pen, which draws many different triangles of varying sizes.
 
