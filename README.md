@@ -46,6 +46,8 @@ For the first of our labs, we experimented with many different AI experiment mad
 
 For the second lab, we were to make an interactive art piece using a FaceMesh provided to us. In the midst of a heat wave, I decided to go with turning the user's face into the Sun, shooting angry lazer beams down on the population below.
 
+(It also has came to my attention today that progress photos are suggested to help see the thought process behind our work. I did not know this, and will now make sure to take many progess photos as I continue on future work.)
+
 ## Session 6 (7/7/26)
 
 Session 6 was where we learned the steps to create an AI model, before it became more of a freeform lecture focused on the discussion of AI and it's ethical implications. I feel this was a very important lecture, as it highlighted many of the issues I have with AI at the moment. For example, one ethical issue that was brought up was how AI can have natural biases based on the company who made it, leading to many groups feeling oppressed simply because they were not considered when making the training data. Another issue that was brought up was privacy, and how many companies hide clauses in their terms and conditions that allow their AI to harvest your data and personal information, and a discussion was made to decide whether it was ethical to hide something so crucial from their users.
