@@ -137,6 +137,8 @@ I did however, successfully create a system that would change the masks at will!
 
 I hid the drawing of the hands, and also made some minor aesthetic changes by making the mirror more purple, and making the background appear more like a castle wall. Unfortunately I couldn't make a smoke or fire effect of the mirror either due to how long the implementation of the hands took. Thankfully though, I believe I am ready for the showcase!
 
+HandPose Model Guide: https://docs.ml5js.org/#/reference/handpose
+
 ## Last Minute Showcase Changes (16/7/26)
 
 I am writing this post showcase, but we had time while we were waiting for the showcase to start, and I wanted to make sure I wrote them down.
