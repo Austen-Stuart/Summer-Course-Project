@@ -86,11 +86,13 @@ The second was learning how to use "teachable machines" which is an algorithm us
 
 ## Final Project 1 (12/7/26)
 
-Over the weekend, I i decided to get a little work done just to make sure the face mesh works properly. It looks like rather than drawing key feature, it maps the face to certain points on the screen. Thankfully, I was able to find a guide to the coordinate system that the face mesh uses. 
+Over the weekend, I i decided to get a little work done just to make sure the face mesh works properly. It looks like rather than drawing key feature, it maps the face to certain points on the screen. Thankfully, I was able to find a *guide to the coordinate system that the face mesh uses. 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/d083ef96-3e83-4b7a-b765-e96fa976a1de" />
 <img width="300" height="266" alt="image" src="https://github.com/user-attachments/assets/877f82cc-4752-4e29-a045-13e42de537b3" />
 
 To make sure this worked properly, I changes the color of the various points around the left and right using the coordinates in the guide! This worked, and I feel more confident in the direction of my project.
+
+*Guide used from ml5's website: https://docs.ml5js.org/#/reference/facemesh
 
 ## Final Project 2 (Session 9) (13/7/26)
 
