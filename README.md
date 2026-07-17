@@ -111,6 +111,8 @@ For this session, I made a small border to act as the mirror, and the border is 
 
 I also ended up making some new "masks" using a function to determine the color based on the X and Y position of each triangle. The first mask starts white, but turns more purple as the masks move down. I thought it would look a bit like shading, and maybe I can add a purple fire or smoke effect to work as lighting if I can manage to get that to work in time. 
 
+<img width="300" height="266" alt="image" src="https://github.com/user-attachments/assets/93155b5e-b649-48a4-89ac-bb05a664efe0" />
+
 The other mask I gave a whole bunch of random values to each color on the RGB scale. Red is determined by the order of triangles, green is determined by the X position, and blue is determined by the Y position. What resulted was a really cool rainbow style effect that shifted colors when you move, which I LOVED.
 
 The 2 problems that I still need to fix are getting more masks, and adding a trigger to change masks at will. For the first problem, I found a *YouTube tutorial that seems to use the same FaceMesh I am using, and how he was able to import drawings using UV Textures that come with the ML Algorithm. Hopefully I can use this to create/import some more unique masks in the next session. As for the second problem, I have the mask change when you press down on the mouse right now, but one of my classmates pointed out how I can use the teachable machines from session 8 could be used to detect and change their mask when they pose. I think this is a really cool idea, that I want to expirement with next session.
