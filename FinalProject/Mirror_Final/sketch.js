@@ -99,15 +99,17 @@ function draw() {
   //Draw each of the ripple objects for the effect
   for(let i = 0; i < rippleArray.length; i++){
     let ripple = rippleArray[i];
+    //Draw ripple
     rippleShade = color(200,0,200);
     rippleShade.setAlpha(255 * ripple.alpha);
     stroke(rippleShade);
     strokeWeight(25);
     circle(ripple.x,ripple.y,ripple.size);
+    //Update the size and alpha of the ripple
     ripple.size += ripple.speed;
     ripple.alpha -= 0.01;
     if(ripple.alpha <= 0){
-      rippleArray.shift();
+      rippleArray.shift(); //Remove the ripple from the array if it is no longer visible
     }
   }
   
@@ -175,7 +177,7 @@ function draw() {
   }
 
   /*
-  //DRAW HANDS
+  //DRAW HANDS UNUSED
   for (let i = 0; i < hands.length; i++) {
     let hand = hands[i];
     for (let j = 0; j < hand.keypoints.length; j++) {
@@ -221,6 +223,7 @@ function draw() {
   }
   
   /*
+  UNUSED MOUSE CLICK TO CHANGE MASK
   if(mouseIsPressed === true){
     newMask += 1;
     if(newMask > maxMask){
