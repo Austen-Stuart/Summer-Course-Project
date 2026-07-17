@@ -22,6 +22,7 @@ let handCountdown;
 
 let rippleArray = [];
 
+//Objects to make the ripple effect when a hand is detected
 const ripple = {
   alpha: 1,
   size: 1,
@@ -31,15 +32,16 @@ const ripple = {
 };
 
 function preload() {
-  // Load the faceMesh model
+  // Load the faceMesh model and handPose model
   faceMesh = ml5.faceMesh(options);
   handPose = ml5.handPose();
 }
 
 function setup() {
+  //Create canvas and set the ID where the sketch is located
   const canvas = createCanvas(640, 480);
-  canvas.parent("p5_sketch"); // set the ID of the div where your sketch will be located
-  // Create the webcam video and hide it
+  canvas.parent("p5_sketch"); 
+  //Create the webcam video and hide it
   video = createCapture(VIDEO);
   video.size(640, 480);
   video.hide();
@@ -47,6 +49,7 @@ function setup() {
   faceMesh.detectStart(video, gotFaces);
   triangles = faceMesh.getTriangles();
   handPose.detectStart(video, gotHands);
+  //Preset variables to beginning default values
   newMask = 0;
   mask = -1;
   maxMask = 5;
@@ -61,20 +64,19 @@ function setup() {
 }
 
 function draw() {
-  // Draw the webcam video
   clear();
   background(0);
   noStroke();
+  //Hide video
   //image(video, 0, 0, width, height);
-  /*
-  fill('white');
-  text(`${countDown}`,  50, 50);
-  */
 
+  //If the number of faces detected is different than the previous frame, start a countdown to change the mask
   if(faceCount != faces.length){
+    //If the countdown reaches 0, perform a check
     if(countDown <= 0){
       faceCount = faces.length;
       colorIndex = -100;
+      //If a face is detected, reset the countdown, otherwise, flash the screen and change the mask to default
       if(faceCount > 0){
         countDown = countdownMax;
       }else{
@@ -84,15 +86,17 @@ function draw() {
         mask = -1;
       }
     }else{
-      countDown--;
+      countDown--; //Countdown is still running, decrement it
     }
   }else{
+    //If the number of faces detected is the same as the previous frame, reset the countdown if a face is detected
     if(faceCount > 0){
-      countDown = countdownMax;
+      countDown = countdownMax; 
     }
-    faceCount = faces.length;
+    faceCount = faces.length; //Set the faceCount to the current number of faces detected
   }
 
+  //Draw each of the ripple objects for the effect
   for(let i = 0; i < rippleArray.length; i++){
     let ripple = rippleArray[i];
     rippleShade = color(200,0,200);
@@ -138,6 +142,7 @@ function draw() {
       triangle(point1.x,point1.y,point2.x,point2.y,point3.x,point3.y);
     }
 
+    //UNUSED Draws each point of the face mesh
     /*
     for (let j = 0; j < face.keypoints.length; j++) {
       let keypoint = face.keypoints[j];
@@ -161,6 +166,7 @@ function draw() {
     }
     */
     
+    //If the colorIndex is less than triangles, increment to fill in more triangles
     if(colorIndex < triangles.length){
       colorIndex += 10;
     }else{
@@ -181,11 +187,13 @@ function draw() {
   }
   */
 
-  handCount = hands.length;
+  handCount = hands.length; //Get the number of hands detected
+  //If no hands are detected, start a countdown to mark hand as down
   if(handCount <= 0){
     changeMask = true;
     handCountdown--;
   }else{
+    //hand is up, check to see if we need to change the mask and that a shift isn't already in progress
     if(changeMask == true && faceCount > 0 && colorIndex >= triangles.length){
       if(handCountdown <= 0){
         changeMask = false;
@@ -194,6 +202,7 @@ function draw() {
         newMask = newMask % maxMask;
         colorIndex = -100;
         handCountdown = countdownMax;
+        //Create three ripple objects for the hand detected
         for (let i = 0; i < hands.length; i++) {
           let hand = hands[i];
           let keypoint = hand.keypoints[i];
@@ -205,7 +214,7 @@ function draw() {
           rippleArray.push(ripple3);
         }
       }else{
-        handCountdown = countdownMax;
+        handCountdown = countdownMax; //reset the countdown if a hand is detected and we dont change mask yet
       }
       
     }
@@ -221,7 +230,7 @@ function draw() {
   */
   
   
-  //DRAW MIRROR
+  //DRAW MIRROR GLASS
     let glass = color(100,50,100);
     if(glassAppear == true){
       if(colorIndex > 50){
@@ -236,7 +245,7 @@ function draw() {
     quad(0,-50,-50,0,500,700,500,500);
     quad(200,-50,150,0,650,550,650,500);
 
-    
+    //MIRROR FRAME AND BACKGROUND
     noFill();
     stroke(60);
     strokeWeight(270);
@@ -304,11 +313,13 @@ function draw() {
   fill(flashShade);
   rect(0,0,640,480);
   
-  fill('white');
+  //TEST MESSAGES: UNUSED
+  //fill('white');
   //text(`${handCountdown}`,  50, 50);
   //text(`${newMask}`,  50, 70);
   noFill();
   
+  //Fade the flash if the flash is on screen
   if(flash > 0){
     flash -= 3;
   }
@@ -316,35 +327,35 @@ function draw() {
 
 function fillTriangle(j, averageX, averageY, maskType){
   let newClor = 'black';
-  
+  //Check to see the current mask type and fill the triangle with the appropriate color
   switch(maskType){
     case -1:
       newClor = color(0);
       break;
     case 1:
       if(j < triangles.length/4){
-        newClor = color(200, 200, 0); 
+        newClor = color(200, 200, 0);  //If one of the first quarter of triangles, fill with yellow
       }else if(j < triangles.length/2){
-        newClor = color(50, 50, 0); 
+        newClor = color(50, 50, 0);  //If one of the second quarter of triangles, fill with dark yellow
       }else if(j < (triangles.length/2 + triangles.length/4)){
-        newClor = color(200, 200, 0); 
+        newClor = color(200, 200, 0); //If one of the third quarter of triangles, fill with yellow
       }else{
-        newClor = color(50, 50, 0); 
+        newClor = color(50, 50, 0); //If one of the last quarter of triangles, fill with dark yellow
       }
       break;
     case 2:
-      newClor = color(0, 0, random(150,200)); 
+      newClor = color(0, 0, random(150,200)); //Set shade of blue to a random value between 150 and 200
       break;
     case 3:
-      newClor = color(j/4);
+      newClor = color(j/4); //Set shade of gray based on the triangle index
       break;
     case 4:
-      newClor = color(j/2, 800-averageX*2, 605-averageY*2);
+      newClor = color(j/2, 800-averageX*2, 605-averageY*2); //Red = index, blue = y position, green = x position
       break;
     default:
-      newClor = color(605-averageY, 505-averageY, 605-averageY);
+      newClor = color(605-averageY, 505-averageY, 605-averageY); //Set shade of white/purple based on the y position of the triangle
   }
-  return newClor;
+  return newClor; //Return the color to fill the triangle with
 }
 
 // Callback function for when faceMesh outputs data
