@@ -88,7 +88,6 @@ The second was learning how to use "teachable machines" which is an algorithm us
 
 Over the weekend, I i decided to get a little work done just to make sure the face mesh works properly. It looks like rather than drawing key feature, it maps the face to certain points on the screen. Thankfully, I was able to find a *guide to the coordinate system that the face mesh uses. 
 
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/d083ef96-3e83-4b7a-b765-e96fa976a1de" />
 <img width="300" height="266" alt="image" src="https://github.com/user-attachments/assets/877f82cc-4752-4e29-a045-13e42de537b3" />
 
 To make sure this worked properly, I changes the color of the various points around the left and right using the coordinates in the guide! This worked, and I feel more confident in the direction of my project.
@@ -99,11 +98,12 @@ To make sure this worked properly, I changes the color of the various points aro
 
 It looks like for the final sessions of this class will be dedicated to the final project, so I will be detailing my progress in each session. After testing different features, I realized that this version of the face mesh is not going to be as easy to use. 
 
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/d083ef96-3e83-4b7a-b765-e96fa976a1de" />
 <img width="300" height="266" alt="image" src="https://github.com/user-attachments/assets/00ffe88c-15c4-415c-a473-79944dd4ef9c" />
 
 After reading the guide some more I discovered a new feature of the Face mesh where it can map out a mesh of the face into many different triangles. Using this, I successfully managed to get the program to draw any face that appeared on the webcam, without the video even needing to be shown. This ended up majorly impacting the design of my project, as the face drawn ended up reminding me of the magic mirror from snow white, and I think it would be so cool to make a mirror that shifts when people gaze into it.
 
-However, issues began to arrise when I realized that there is no guide to the coordinates or order of triangles, which will make it a bit difficult to make unique styles or drawings of faces if I don't know which triangle I will be changing. Maybe I can find a solution next session.
+However, issues began to arrise when I realized that there is no guide to the coordinates or order of triangles, only the coordinates of each point, which will make it a bit difficult to make unique styles or drawings of faces if I don't know which triangle I will be changing. Maybe I can find a solution next session, but I am a little worried with the amount of time I have.
 
 ## Final Project 3 (Session 10) (14/7/26)
 
