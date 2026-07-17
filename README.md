@@ -55,15 +55,19 @@ For the second lab, we were to make an interactive art piece using a FaceMesh pr
 
 Session 6 was where we learned the steps to create an AI model, before it became more of a freeform lecture focused on the discussion of AI and it's ethical implications. I feel this was a very important lecture, as it highlighted many of the issues I have with AI at the moment. For example, one ethical issue that was brought up was how AI can have natural biases based on the company who made it, leading to many groups feeling oppressed simply because they were not considered when making the training data. Another issue that was brought up was privacy, and how many companies hide clauses in their terms and conditions that allow their AI to harvest your data and personal information, and a discussion was made to decide whether it was ethical to hide something so crucial from their users.
 
-For the labs, we ended up dividing into groups to read different companies terms and conditions, and create slideshows on our finding. My group was assigned Google and it's AI model Gemini, and we found some pretty interesting stuff. I added the slideshow in the Session 6 folder, but one detail that stuck out to me was how Google does reserve the right to use any material you create on their services to train their AI models.
+<img width="300" height="266" alt="image" src="https://github.com/user-attachments/assets/e21f78cd-2f61-4a1a-a8aa-47a56937cb99" />
+
+For the first lab, we ended up testing different examples of p5 being combined with machine learning. While the image recognition wasn't perfect (as shown above), it was fun to mess around with the different interactions.
+
+<img width="300" height="233" alt="image" src="https://github.com/user-attachments/assets/a5c129ab-4406-4581-a7bc-282b15502caf" />
+
+Finally, for the last lab, we ended up dividing into groups to read different companies terms and conditions, and create slideshows on our finding. My group was assigned Google and it's AI model Gemini, and we found some pretty interesting stuff. I added the slideshow in the Session 6 folder, but one detail that stuck out to me was how Google does reserve the right to use any material you create on their services to train their AI models.
 
 ## Session 7 (8/7/26)
 
 Session 7 was a bit of a rough one for me personally. Our lecture was about generating images using machine learning. To do this, we used ComfyUI as our base, where we could attach different nodes to help create a model to generate an image.
 
-(INSERT IMAGE HERE)
-
-As you can see, my first attempt allowed my to attach the Latent Image node to the prompt, and then feed both into the Image Generator to create an output. However, an error arrose that wouldn't allow me to run any models on my computer. The error message told me that my computer's Intel GPU was not compatible with the XPU being used for the model. In order to combat this, I tried to download an Intel friendly version, and have it run using the CPU rather than the GPU.
+My first attempt allowed my to attach the Latent Image node to the prompt, and then feed both into the Image Generator to create an output. However, an error arrose that wouldn't allow me to run any models on my computer. The error message told me that my computer's Intel GPU was not compatible with the XPU being used for the model. In order to combat this, I tried to download an Intel friendly version, and have it run using the CPU rather than the GPU.
 
 <img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/582fd6e0-3c6f-4559-8310-cda89a3c2ebc" />
 <img width="300" height="300" alt="ComfyUI_temp_tiqye_00001_" src="https://github.com/user-attachments/assets/e55c7168-ccd3-4af5-b546-1535a9c653f9" />
