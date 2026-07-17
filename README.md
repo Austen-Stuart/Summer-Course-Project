@@ -78,11 +78,16 @@ This worked, and I was able to successfully generate an image using the prompt "
 
 Session 8 was divided into 2 parts. The first was project preporation, planning, and making sure we request any materials that might be needed for the project. I decided that I am going with the face mesh idea because I think it would be fun to try and make an interactive expirience where you can change what your face looks like on the fly! Ms Marysia even showed me a better version that was able to track faces more accurately, and I want to use that as the base for my final project.
 
+<img width="361" height="642" alt="image" src="https://github.com/user-attachments/assets/82de3c37-a9f5-41ae-82c5-1449d1f3114a" />
+<img width="362" height="652" alt="image" src="https://github.com/user-attachments/assets/89f1cc07-6f4e-4497-9947-1f0d60c6b03e" />
+<img width="346" height="701" alt="image" src="https://github.com/user-attachments/assets/f67fe152-b7b1-4b69-ae06-491e4fb8463f" />
+<img width="357" height="707" alt="image" src="https://github.com/user-attachments/assets/fd206223-e56e-4599-8c58-dc46e89a1bd4" />
+
 https://teachablemachine.withgoogle.com/models/DQWRQLpxO/
 
 The second was learning how to use "teachable machines" which is an algorithm used to help train machine learning models. Our lab focused on the image recognition portion of the lab. I was able to get it to recognize 4 key poses, the first being the Idle/None pose to act as a base for when I am not doing anything, and the other 3 being varying poses to see what the computer could and couldn't recognize. AT first, it was a little difficult to get a hold of, but the more images i fed into the teachable machine, the more likely the model created could identify the pose, and the easier the lab got.
 
-<iframe src="https://editor.p5js.org/Austen-Stuart/full/F9P9d79Sj"></iframe>
+Machine Model Created: https://teachablemachine.withgoogle.com/models/DQWRQLpxO/
 
 ## Final Project 1 (12/7/26)
 
