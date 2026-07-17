@@ -65,6 +65,7 @@ Session 7 was a bit of a rough one for me personally. Our lecture was about gene
 
 As you can see, my first attempt allowed my to attach the Latent Image node to the prompt, and then feed both into the Image Generator to create an output. However, an error arrose that wouldn't allow me to run any models on my computer. The error message told me that my computer's Intel GPU was not compatible with the XPU being used for the model. In order to combat this, I tried to download an Intel friendly version, and have it run using the CPU rather than the GPU.
 
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/582fd6e0-3c6f-4559-8310-cda89a3c2ebc" />
 <img width="300" height="300" alt="ComfyUI_temp_tiqye_00001_" src="https://github.com/user-attachments/assets/e55c7168-ccd3-4af5-b546-1535a9c653f9" />
 
 This worked, and I was able to successfully generate an image using the prompt "A chocolate statue of Wiston Churchill covered in dirty money". While the dirty money was lost, I would still call the image generation a success!
