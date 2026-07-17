@@ -131,11 +131,15 @@ While I had a lot of ideas to continue evolving, some of them didn't end up pann
 
 I did make 3 more new masks, one being a standered two-sided theater mask, one being a static blue appearance that randomizes it's shade every frame, and the last one is a simple black and white mask that determines it's shade base on the order of triangles. WHile I hoped to do more with the masks, this was all I could do in the limited time I had.
 
-<img width="781" height="587" alt="image" src="https://github.com/user-attachments/assets/36aa7c6c-2349-42c5-8979-5fec580e67a4" />
+<img width="300" height="233" alt="image" src="https://github.com/user-attachments/assets/36aa7c6c-2349-42c5-8979-5fec580e67a4" />
 
 I did however, successfully create a system that would change the masks at will! However, rather than using the Teachable Machines from session 8, I decided to go with a new HandMesh system made by ml5 to detect different hands. What i did is I had it detect when a user would have a hand on screen, and change the mask once the webcam detects a hand. Then, the program waits for the hand to disapear before it detects if there is another hand! That way it isn't constantly shifting masks, and still gives the user control of when the mask changes!
 
 I hid the drawing of the hands, and also made some minor aesthetic changes by making the mirror more purple, and making the background appear more like a castle wall. Unfortunately I couldn't make a smoke or fire effect of the mirror either due to how long the implementation of the hands took. Thankfully though, I believe I am ready for the showcase!
 
 ## Last Minute Showcase Changes (16/7/26)
+
+I am writing this post showcase, but we had time while we were waiting for the showcase to start, and I wanted to make sure I wrote them down.
+
+I ended up shift to the offline editor and, thanks to Ms Marysia, changed background to black, and the layout to be centered for the showcase. I also fixed a glitch where, if the hand would not be detected for a frame, then redetected, it would shift masks again. I added a countdown to both the face and hands detection so that if they disapear, they would wait 30 frames to see if they reappear.
 
